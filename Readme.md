@@ -10,12 +10,20 @@ Scaf for develop EOS contract use VSCode
 - update `CMakeLists.txt` set **ProjectName** to your project name.
 - create a dir under `contracts`
 
+## Install shell
+
+```bash
+$ curl -o /usr/local/bin/eos-contract https://raw.githubusercontent.com/kinsen/eos-contract-dev/master/shell.sh && chmod +x /usr/local/bin/eos-contract
+```
+
 ## How to gen abi?
 
 - select the contract folder, such like `hello`.
 - ⇧⌘P
 - Run Task
 - Generate ABI
+
+
 
 ## Refs
 
